@@ -1,11 +1,11 @@
 1st Set of Questions for Basic programming skills:
-## Prerequisite
+## Prerequisites
     All Java  test apps have been deployed for Installed Software/framework as follow 
     1. Java version 17+
     2. Apache Maven version 3.9.9
 
-## In order to run tests 
-    1. un-archive zip/jar file
+## In order to run the tests 
+    1. if using zip file: un-archive zip file.
     2. run java demo from parent folder with commands shown below.
 
 1. DocumentSearchEngine.java Run Main app from parent folder:
@@ -81,9 +81,9 @@ gc.log
 
  
 
-## 5 multithreaded java application where the threads appear to dead
-## lock in production steps to fix: 
- 1. Capture Thread Dump by Useing: 
+## 5 multithreaded java application where the threads appear to be in status dead
+lock in production. Steps to fix it: 
+ 1. Capture Thread Dump by Using: 
     - jstack -i pid 
     - kill -3 pid
  2. Monitor JVM:
