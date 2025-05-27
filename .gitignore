@@ -1,0 +1,17 @@
+
+/target/
+.classpath
+.project
+.git
+.settings
+.vscode
+template.yaml.old
+/target/*
+/.aws-sam/*
+/.settings
+/.settings/*
+/.vscode
+/.vscode/*
+/.git/
+.~lock*
+*lock*
